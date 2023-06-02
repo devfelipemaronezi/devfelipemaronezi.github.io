@@ -330,9 +330,10 @@ a {
 /* Product */
 #product {
     width: 100%;
-    padding: 50px;
+    padding: 40px;
     padding-bottom: -10px;
     background-color: #722283;
+    padding-top: -20px;
 }
 
 #product .headline{
@@ -359,6 +360,25 @@ a {
     font-size: 1.3rem;
     letter-spacing: 0.5px;
     text-align: justify;
+}
+
+.btn-delivery{
+    color: #81009e;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    display: inline-block;
+    padding: 20px 60px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: #f8cd3e;
+        animation: glow2 2s ease-in-out infinite alternate;
+    border-radius: 5px; 
+    border-style:double;
+    transition: background 500ms ease;
+    text-align: center;
 }
 
 /* Testimonials */
@@ -427,4 +447,11 @@ a {
 
 #footer a{
     font-size: 20px;
+}
+
+#footer a:hover{
+    font-size: 25px;
+    transition: 0.2s;
+    margin-bottom: 2px;
+    color: #f3ff52;
 }
